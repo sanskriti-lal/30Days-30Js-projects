@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+position: relative;
+width: 100%;
+height: 100vh;
+background: linear-gradient(112.71deg, #5237A0 32.91%, #8266D1 74.79%);
+display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: flex-start;
+    
+}
+
+.txt1{
+position: relative;
+width: 40%;
+height: 0%;
+left: 109px;
+top: 230px;
+font-family: 'Basic';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+color: #FFFFFF;
+}
+
+.txt2{
+position: relative;
+width: 100%;
+height: 0%;
+left: 109px;
+top: 280px;
+font-family: 'Basic';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+color: #BDFF00;
+}
+
+.line{
+position: relative;
+width: 358px;
+height: 0px;
+left: 109px;
+top: 335px;
+border: 1.9px solid #BDFF00;
+}
+
+.txtbox{
+
+position: absolute;
+width: 358px;
+height: 53px;
+left: 109px;
+top: 385px;
+background: #FFFFFF;
+border-radius: 10px;
+
+}
+
+.txtbox input{
+    position: relative;
+    width: 270px;
+    height: 35px;
+    top: 10px;
+    left: 10px;
+}
+
+.txtbox img{
+    /* image 9 */
+position: absolute;
+width: 50px;
+height: 50px;
+left: 300px;
+top: 1.5px;
+cursor: pointer;
+background: url(pic.png);
+
+}
+button{
+/* Rectangle 5 */
+
+position: absolute;
+width: 164px;
+height: 66px;
+left: 109px;
+top: 480px;
+
+background: #BDFF00;
+border-radius: 10px;
+
+/* Generate */
+
+font-family: 'Basic';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 40px;
+
+color: #000000;
+
+}
+
