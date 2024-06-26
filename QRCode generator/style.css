@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg, grey, black) ;
+    padding: 10px;
+}
+
+.container p{
+    /* QR Code Generator */
+
+position: relative;
+width: 100% ;
+height: 51px;
+left: 906px;
+top: 26px;
+
+font-family: 'copperplate';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 51px;
+/* identical to box height */
+
+color: #FF007A;
+
+}
+
+.container h2{
+    /* enter text / link */
+
+position: relative;
+width: 100%;
+height: 58px;
+left: 74px;
+top: 169px;
+
+font-family: 'Barriecito';
+font-style: normal;
+font-weight: 400;
+font-size: 42px;
+line-height: 58px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+}
+
+.txtbox input[type="text"] {
+    /* Rectangle 6 */
+
+position: absolute;
+width: 350px;
+height: 60px;
+left: 74px;
+font-size: 25px;
+top: 319px;
+padding: 10px 10px 10px 20px;
+background: #D9D9D9;
+border-radius: 14px;
+
+}
+
+.txtbox input[type="text"]::placeholder {
+    font-size: 25px;
+}
+
+button{
+    /* Rectangle 7 */
+
+position: absolute;
+width: 195px;
+height: 64px;
+left: 74px;
+top: 428px;
+
+background: #FF007A;
+border-radius: 10px;
+
+   /* generate */
+
+position: absolute;
+width: 157px;
+height: 48px;
+left: 74px;
+top: 425px;
+
+font-family: 'Barriecito';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 48px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+}
+
+.imgBox{
+position: absolute;
+width: 374px;
+height: 400px;
+left: 940px;
+top: 220px;
+border-radius: 10px;
+}
+
+#imgBox img{
+    position: absolute;
+width: 374px;
+height: 400px;
+left: 940px;
+top: 220px;
+
+background: #D9D9D9;
+border-radius: 10px;
+}
+ #imgBox.show-img{
+    width: 374px;
+height: 400px;
+left: 940px;
+top: 220px;
+
+background: #D9D9D9;
+border-radius: 10px;
+ }
